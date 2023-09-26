@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav,.heading{
+    background-color: #b9e1e9;
+}
+/* designing the navbar */
+.menu a li{
+    /* position: absolute; */
+    display: inline;
+    margin:5px 18px ;
+    list-style:none;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: aqua;
+}
+.menu ul{
+    margin-top: 20px;
+
+}
+.heading{
+    padding: 5%;
+}
+.heading h1{
+    line-height: 2;
+    font-size: 50px;
+}
+#title{
+    margin-left: 14%;
+    margin-top: 20px;
+    /* font-size: 40px; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bolder;
+}
+#title i{
+    color: aqua;
+    margin-right: 5px;
+}
+/* middle */
+.heading img{
+width: 80%;
+}
+.heading h1{
+    font-weight: bolder;
+}
+.heading button{
+    width: 30%;
+    border: none;
+    padding: 8px 1px;
+    background-color:#36b0c8 ;
+    text-align: center;
+}
+.heading button:hover{
+    background: rgb(103, 100, 100);
+}
+/* designing universal button */
+.all-btn{
+    padding: 7px 10px;
+    border: none;
+    color: #fff;
+    background: #36b0c8;
+    
+}
+.all-btn:hover{
+    background-color: rgba(103,100,100 );
+}
+/* best health care */
+#besthc{
+    margin: 5%;
+    padding: 2% 5%;
+}
+#besthc img{
+    width: 50%;
+    
+}
+#first-img{
+    border-top:20px solid #b9e1e9 ;
+    border-left: 19px solid #b9e1e9;
+}
+#read-more{
+    margin-top: 50px;
+}
+/* why us */
+#why-us{
+    padding: 5% 8%;
+}
+#get-quote{
+    margin-left: 40%;
+}
+/* what we do */
+#wwd {
+    /* margin: 5%; */
+    padding: 5%;
+    background-color: #b9e1e9;
+}
+#wwd h1{
+    line-height: 3;
+}
+#wwd h5{
+    line-height: 2;
+    font-size: 24px;
+}
+#wwd i{
+    margin-right: 30px;
+    color: aqua;
+    font-size: 40px;
+}
+
+#wwd form{
+    background-color: #f8f9fa;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#wwd form input{
+    display: block;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    padding: 5px;
+}
+#wwd form button{
+    padding: 5px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* review */
+#review{
+    padding: 5%;
+    text-align: center;
+}
+#review img{
+    width: 70%;
+    height: 30%;
+    border-radius: 99%;
+    margin-bottom: 10px;
+}
+/* about-us */
+#about-us{
+    background-color: #252525;
+    color: #fff;
+    padding: 5%;
+}
+#about-us p{
+    color: #ccc;
+}
+#about-us p i{
+    margin-right: 10px;
+}
+#about-us h4{
+line-height: 3;
+}
+#about-us button{
+    margin: 10px 0px;
+    width: 100px;
+}
+#about-us i{
+    margin: 5px;
+    font-size: 24px;
+    border-radius: 100%;
+}
